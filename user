@@ -1,0 +1,1422 @@
+UID #1
+  Name       : Huong
+  Privilege  : Admin
+  Password   :
+  Group ID   :
+  User  ID   : 1
++ UID #2
+  Name       : NN-2
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 2
++ UID #3
+  Name       : HuyNS
+  Privilege  : Admin
+  Password   :
+  Group ID   :
+  User  ID   : 3
++ UID #4
+  Name       : DungAnh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 8
++ UID #5
+  Name       : HoangAnh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 15
++ UID #6
+  Name       : ChiHuong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 6
++ UID #7
+  Name       : Thuy
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 4
++ UID #8
+  Name       : 5
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 5
++ UID #9
+  Name       : DaoHuong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 7
++ UID #10
+  Name       : LinhTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 10
++ UID #11
+  Name       : TungSSA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 9
++ UID #12
+  Name       : CuongDola
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 11
++ UID #13
+  Name       : Bich
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 12
++ UID #14
+  Name       : ThBinh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 13
++ UID #15
+  Name       : 546442
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 14
++ UID #16
+  Name       : 1666
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 16
++ UID #17
+  Name       : LinhSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 17
++ UID #18
+  Name       : ManhSSA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 18
++ UID #19
+  Name       : ThayHa
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 19
++ UID #20
+  Name       : Nghia
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 20
++ UID #21
+  Name       : ThuySSA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 21
++ UID #22
+  Name       : TuanSSA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 22
++ UID #23
+  Name       : an
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 23
++ UID #24
+  Name       : LanAnhCSKH
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 24
++ UID #25
+  Name       : Kien
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 25
++ UID #26
+  Name       : MyMedia
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 26
++ UID #27
+  Name       : HoaiMedia
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 27
++ UID #28
+  Name       : nga
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 28
++ UID #29
+  Name       : nam_mkt
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 29
++ UID #30
+  Name       : tuan_DV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 30
++ UID #31
+  Name       : HienMarketing
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 31
++ UID #32
+  Name       : Dang
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 32
++ UID #33
+  Name       : nGUYet
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 33
++ UID #34
+  Name       : anHgiang
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 34
++ UID #35
+  Name       : GiangTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 35
++ UID #36
+  Name       : ~~~
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 36
++ UID #37
+  Name       : HieuTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 37
++ UID #38
+  Name       : HuyenSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 38
++ UID #39
+  Name       : HoaTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 39
++ UID #40
+  Name       : HuongMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 40
++ UID #41
+  Name       : TuanNSTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 41
++ UID #42
+  Name       : QuynhTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 42
++ UID #43
+  Name       : ThietTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 43
++ UID #44
+  Name       : QuynhAnh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 44
++ UID #45
+  Name       : NhungTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 45
++ UID #46
+  Name       : AnhCuong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 46
++ UID #47
+  Name       : MyCenter
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 47
++ UID #48
+  Name       : AnhDuc
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 48
++ UID #49
+  Name       : LinhMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 49
++ UID #50
+  Name       : AnhHungCenter
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 50
++ UID #51
+  Name       : ThinhMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 51
++ UID #52
+  Name       : NgKienAds
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 52
++ UID #53
+  Name       : Hhanh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 53
++ UID #54
+  Name       : VietPhuong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 54
++ UID #55
+  Name       : XuanTruongMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 55
++ UID #56
+  Name       : VuNhungBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 56
++ UID #57
+  Name       : CuongDvu
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 57
++ UID #58
+  Name       : Duong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 58
++ UID #59
+  Name       : ^ManhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 59
++ UID #60
+  Name       : MinhThaiTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 60
++ UID #61
+  Name       : NgaNS
+  Privilege  : Admin
+  Password   :
+  Group ID   :
+  User  ID   : 61
++ UID #62
+  Name       : HuongTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 62
++ UID #63
+  Name       : HangMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 63
++ UID #64
+  Name       : NhaiTeacher
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 64
++ UID #65
+  Name       : NHuongTC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 65
++ UID #66
+  Name       : LamCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 66
++ UID #67
+  Name       : LeDuongfCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 67
++ UID #68
+  Name       : VuIT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 68
++ UID #69
+  Name       : BacKhaiNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 69
++ UID #70
+  Name       : LongBrand
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 70
++ UID #71
+  Name       : TuanCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 71
++ UID #72
+  Name       : VanSoOnl
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 72
++ UID #73
+  Name       : MyCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 73
++ UID #74
+  Name       : MaiHuongSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 74
++ UID #75
+  Name       : VanAnhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 75
++ UID #76
+  Name       : DucMy
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 76
++ UID #77
+  Name       : ATuanA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 77
++ UID #78
+  Name       : NgocYen
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 78
++ UID #79
+  Name       : DuongNguyen
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 79
++ UID #80
+  Name       : ATrinh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 80
++ UID #81
+  Name       : LuyenCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 81
++ UID #82
+  Name       : ThuyOnline
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 82
++ UID #83
+  Name       : PLinhTele
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 83
++ UID #84
+  Name       : HoaCSKH
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 84
++ UID #85
+  Name       : ADinh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 85
++ UID #86
+  Name       : ATu
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 86
++ UID #87
+  Name       : Trung
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 87
++ UID #88
+  Name       : AChienNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 88
++ UID #89
+  Name       : HangNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 89
++ UID #90
+  Name       : HuyenTch
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 90
++ UID #91
+  Name       : DungHr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 91
++ UID #92
+  Name       : PhuongKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 92
++ UID #93
+  Name       : ALong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 93
++ UID #94
+  Name       : ATuanCKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 94
++ UID #95
+  Name       : QuynhApp
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 95
++ UID #96
+  Name       : TaTuan
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 96
++ UID #97
+  Name       : ABinh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 97
++ UID #98
+  Name       : CDA
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 98
++ UID #99
+  Name       : ASonTC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 99
++ UID #100
+  Name       : AHaiIT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 100
++ UID #101
+  Name       : Hong
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 101
++ UID #102
+  Name       : AMinhIT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 102
++ UID #103
+  Name       : CQuy
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 103
++ UID #104
+  Name       : EHaCoach
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 104
++ UID #105
+  Name       : ThuTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 105
++ UID #106
+  Name       : AHungMkt
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 106
++ UID #107
+  Name       : CTranNS
+  Privilege  : Admin
+  Password   :
+  Group ID   :
+  User  ID   : 107
++ UID #108
+  Name       : ADaiMkt
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 108
++ UID #109
+  Name       : AManhKV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 109
++ UID #110
+  Name       : KienMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 110
++ UID #111
+  Name       : CNhungMkt
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 111
++ UID #112
+  Name       : QAnhDes
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 112
++ UID #113
+  Name       : cCHUONG~
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 113
++ UID #114
+  Name       : aDaTMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 114
++ UID #115
+  Name       : danhMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 115
++ UID #116
+  Name       : ATrungBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 116
++ UID #117
+  Name       : HienBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 117
++ UID #118
+  Name       : MaiVTX
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 118
++ UID #119
+  Name       : LyBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 119
++ UID #120
+  Name       : NhungSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 120
++ UID #121
+  Name       : ChiSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 121
++ UID #122
+  Name       : TuanMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 122
++ UID #123
+  Name       : ChiKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 123
++ UID #124
+  Name       : HieuSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 124
++ UID #125
+  Name       : CVAnhSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 125
++ UID #126
+  Name       : TrieuBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 126
++ UID #127
+  Name       : NganBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 127
++ UID #128
+  Name       : CPhuongSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 128
++ UID #129
+  Name       : MinhSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 129
++ UID #130
+  Name       : CDaoMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 130
++ UID #131
+  Name       : MinhMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 131
++ UID #132
+  Name       : QuyenMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 132
++ UID #133
+  Name       : NhiSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 133
++ UID #134
+  Name       : HaKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 134
++ UID #135
+  Name       : ChiSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 135
++ UID #136
+  Name       : HuongBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 136
++ UID #137
+  Name       : TuanBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 137
++ UID #138
+  Name       : LoanSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 138
++ UID #139
+  Name       : TuTele
+  Privilege  : User
+  Password   : 100798
+  Group ID   :
+  User  ID   : 139
++ UID #140
+  Name       : HuongSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 140
++ UID #141
+  Name       : CLinhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 141
++ UID #142
+  Name       : NhungHR
+  Privilege  : Admin
+  Password   :
+  Group ID   :
+  User  ID   : 142
++ UID #143
+  Name       : TraBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 143
++ UID #144
+  Name       : CuongBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 144
++ UID #145
+  Name       : LinhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 145
++ UID #146
+  Name       : CThuCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 146
++ UID #147
+  Name       : HangTC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 147
++ UID #148
+  Name       : NN-148
+  Privilege  : User
+  Password   : 3110
+  Group ID   :
+  User  ID   : 148
++ UID #149
+  Name       : NgocBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 149
++ UID #150
+  Name       : TrinhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 150
++ UID #151
+  Name       : YenBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 151
++ UID #152
+  Name       : HaiTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 152
++ UID #153
+  Name       : BuuCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 153
++ UID #154
+  Name       : QuynhWeb
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 154
++ UID #155
+  Name       : NgoanTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 155
++ UID #156
+  Name       : ThaiTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 156
++ UID #157
+  Name       : ThuyTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 157
++ UID #158
+  Name       : LoanNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 158
++ UID #159
+  Name       : AChienCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 159
++ UID #160
+  Name       : HoanCN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 160
++ UID #161
+  Name       : CTrangHR
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 161
++ UID #162
+  Name       : HaBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 162
++ UID #163
+  Name       : NhungBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 163
++ UID #164
+  Name       : NgaTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 164
++ UID #165
+  Name       : VuongDT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 165
++ UID #166
+  Name       : ChiCNW
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 166
++ UID #167
+  Name       : ThuySale
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 167
++ UID #168
+  Name       : LinhSale
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 168
++ UID #169
+  Name       : LUc
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 169
++ UID #170
+  Name       : LongDesign
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 170
++ UID #171
+  Name       : HoatrolY
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 171
++ UID #172
+  Name       : troNganh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 172
++ UID #173
+  Name       : linhbr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 173
++ UID #174
+  Name       : linhtele
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 174
++ UID #175
+  Name       : MinhAnhIT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 175
++ UID #176
+  Name       : DungbranD
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 176
++ UID #177
+  Name       : HienSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 177
++ UID #178
+  Name       : MinhBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 178
++ UID #179
+  Name       : DuyBDT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 179
++ UID #180
+  Name       : PhAnhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 180
++ UID #181
+  Name       : HongAnhBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 181
++ UID #182
+  Name       : HoaMKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 182
++ UID #183
+  Name       : TrangSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 183
++ UID #184
+  Name       : HaiSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 184
++ UID #185
+  Name       : LinhcVHC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 185
++ UID #186
+  Name       : NhanCVHC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 186
++ UID #187
+  Name       : TrangCVHC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 187
++ UID #188
+  Name       : AnhCVHC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 188
++ UID #189
+  Name       : DuyenCVHC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 189
++ UID #190
+  Name       : NganHR
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 190
++ UID #191
+  Name       : MaiAnhDV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 191
++ UID #192
+  Name       : CVHCYen
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 192
++ UID #193
+  Name       : CVHCNga
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 193
++ UID #194
+  Name       : BinhSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 194
++ UID #195
+  Name       : HuongSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 195
++ UID #196
+  Name       : TramSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 196
++ UID #197
+  Name       : MaiHCKV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 197
++ UID #198
+  Name       : QAnhSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 198
++ UID #199
+  Name       : DatBrand
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 199
++ UID #200
+  Name       : DatBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 200
++ UID #201
+  Name       : HuongTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 201
++ UID #202
+  Name       : DuyenTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 202
++ UID #203
+  Name       : MaiAnhTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 203
++ UID #204
+  Name       : MinhSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 204
++ UID #205
+  Name       : HoangAnh
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 205
++ UID #206
+  Name       : GiangCSVC
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 206
++ UID #207
+  Name       : ChiSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 207
++ UID #208
+  Name       : ThoaSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 208
++ UID #209
+  Name       : HienSP
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 209
++ UID #210
+  Name       : HuongBrand
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 210
++ UID #211
+  Name       : VanSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 211
++ UID #212
+  Name       : HungSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 212
++ UID #213
+  Name       : NganHCKV
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 213
++ UID #214
+  Name       : DatCNTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 214
++ UID #215
+  Name       : DungSPNN
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 215
++ UID #216
+  Name       : LATuan
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 216
++ UID #217
+  Name       : TrangTroly
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 217
++ UID #218
+  Name       : YenNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 218
++ UID #219
+  Name       : NguyenBrand
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 219
++ UID #220
+  Name       : MyTroly
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 220
++ UID #221
+  Name       : TramDes
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 221
++ UID #222
+  Name       : LeNS
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 222
++ UID #223
+  Name       : AnKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 223
++ UID #224
+  Name       : AnhKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 224
++ UID #225
+  Name       : LinhKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 225
++ UID #226
+  Name       : HaBPL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 226
++ UID #227
+  Name       : LinhDT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 227
++ UID #228
+  Name       : TraTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 228
++ UID #229
+  Name       : LeNaTTHT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 229
++ UID #230
+  Name       : NgAnhTTHT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 230
++ UID #231
+  Name       : HuyenTL
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 231
++ UID #232
+  Name       : BaoDes
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 232
++ UID #233
+  Name       : MAnhBr
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 233
++ UID #234
+  Name       : TrangTelesale
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 234
++ UID #235
+  Name       : DaiCNTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 235
++ UID #236
+  Name       : PhuongCNTT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 236
++ UID #237
+  Name       : HuyenKT
+  Privilege  : User
+  Password   :
+  Group ID   :
+  User  ID   : 237

@@ -14,3 +14,6 @@ def insert(sql, val):
     mycursor.execute(sql, val)
     mydb.commit()
     mydb.close()
+
+def updateOrCreate():
+    pass
