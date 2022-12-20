@@ -29,7 +29,6 @@ def send_attendances(conn, date_str = None):
     if date_str is None:
         date_check = datetime.datetime.now().strftime("%Y-%m-%d")
     attendances = conn.get_attendance()
-    print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     for attendance in attendances:
         #if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
         results.append(makeDataAttendance(attendance))
@@ -40,22 +39,31 @@ def send_realtime_attendance(attendance):
     myobj = makeDataAttendance(attendance)
     x = requests.post(url, json = myobj)
 
-try:
-    # connect to device
-    conn = zk.connect()
-    #live capture! (timeout at 10s)
-    for attendance in conn.live_capture():
-        if attendance is None:
-           # implement here timeout logic
-           pass
-        else:
-           send_realtime_attendance(attendance)
-    schedule.every().day.at("12:00").do(send_users(conn))
-    schedule.every().day.at("18:00").do(send_users(conn))
-    schedule.every().day.at("23:30").do(send_attendances(conn))
+def start_connect(conn):
+    send_users(conn)
+    send_attendances(conn)
+def run_schedule(conn):
+    schedule.every().day.at("12:00").do(send_users, conn)
+    schedule.every().day.at("18:00").do(send_users, conn)
+    schedule.every().day.at("23:30").do(send_attendances, conn)
     while True:
         schedule.run_pending()
         time.sleep(1)
+
+def get_attendance_realtime(conn):
+    for attendance in conn.live_capture():
+        if attendance is None:
+          # implement here timeout logic
+          pass
+        else:
+          send_realtime_attendance(attendance)
+
+try:
+    # connect to device
+    conn = zk.connect()
+    start_connect(conn)
+    run_schedule(conn)
+    get_attendance_realtime(conn)
 except Exception as e:
     print ("Process terminate : {}".format(e))
 finally:
