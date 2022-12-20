@@ -30,8 +30,8 @@ def send_attendances(conn, date_str = None):
         date_check = datetime.datetime.now().strftime("%Y-%m-%d")
     attendances = conn.get_attendance()
     for attendance in attendances:
-        #if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
-        results.append(makeDataAttendance(attendance))
+        if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
+            results.append(makeDataAttendance(attendance))
     x = requests.post(url, json = results)
 
 def send_realtime_attendance(attendance):
