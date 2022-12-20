@@ -1,0 +1,5 @@
+class User:
+  def __init__(self, id, office, name):
+    self.id = id
+    self.office = office
+    self.name = name
