@@ -35,7 +35,6 @@ def send_attendances(conn, date_str = None):
     for attendance in attendances:
         #if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
         results.append(makeDataAttendance(attendance))
-    print(results)
     x = requests.post(url, json = results)
     print ("send_attendances : {}".format(x))
 
