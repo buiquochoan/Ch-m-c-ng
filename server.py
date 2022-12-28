@@ -56,9 +56,9 @@ def run_schedule(conn):
     while True:
         schedule.run_pending()
         time.sleep(1)
-def send_telegram():
+
+def send_telegram(body):
     headers = {'Content-Type': 'application/xml'} # set what your server accepts
-    body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     r = requests.post("https://api.telegram.org/bot"+format(os.getenv('TELEGRAM_BOT_TOKEN'))+"/sendMessage?text=" + body + "&chat_id="+format(os.getenv('TELEGRAM_GROUP_ID'))+"&parse_mode=Markdown", headers=headers)
     print(body)
 
@@ -75,7 +75,8 @@ try:
     else:
         send_realtime_attendance(attendance) """
 except Exception as e:
-    send_telegram()
+    body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    send_telegram(body)
     print ("Process terminate : {}".format(e))
 finally:
     """ if conn:
