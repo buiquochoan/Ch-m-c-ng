@@ -5,6 +5,7 @@ import os
 import requests
 import schedule
 import time
+import _thread
 
 conn = None
 # create ZK instance
@@ -55,24 +56,27 @@ def run_schedule(conn):
     while True:
         schedule.run_pending()
         time.sleep(1)
-
-def get_attendance_realtime(conn):
-    print('start live_capture')
-    for attendance in conn.live_capture():
-        if attendance is None:
-          # implement here timeout logic
-          pass
-        else:
-          send_realtime_attendance(attendance)
+def send_telegram():
+    headers = {'Content-Type': 'application/xml'} # set what your server accepts
+    body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    r = requests.post("https://api.telegram.org/bot"+format(os.getenv('TELEGRAM_BOT_TOKEN'))+"/sendMessage?text=" + body + "&chat_id="+format(os.getenv('TELEGRAM_GROUP_ID'))+"&parse_mode=Markdown", headers=headers)
+    print(body)
 
 try:
     # connect to device
-    conn = zk.connect()
-    start_connect(conn)
+    #conn = zk.connect()
+    #start_connect(conn)
     #run_schedule(conn)
-    get_attendance_realtime(conn)
+    print('start live_capture')
+    """ for attendance in conn.live_capture():
+    if attendance is None:
+        # implement here timeout logic
+        pass
+    else:
+        send_realtime_attendance(attendance) """
 except Exception as e:
+    send_telegram()
     print ("Process terminate : {}".format(e))
 finally:
-    if conn:
-        conn.disconnect()
+    """ if conn:
+        conn.disconnect() """
