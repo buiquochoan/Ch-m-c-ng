@@ -34,8 +34,8 @@ def send_attendances(conn, date_str = None):
         date_check = datetime.datetime.now().strftime("%Y-%m-%d")
     attendances = conn.get_attendance()
     for attendance in attendances:
-        #if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
-        results.append(makeDataAttendance(attendance))
+        if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
+            results.append(makeDataAttendance(attendance))
     x = requests.post(url, json = results)
     print ("send_attendances : {}".format(x))
 
@@ -62,22 +62,24 @@ def send_telegram(body):
     r = requests.post("https://api.telegram.org/bot"+format(os.getenv('TELEGRAM_BOT_TOKEN'))+"/sendMessage?text=" + body + "&chat_id="+format(os.getenv('TELEGRAM_GROUP_ID'))+"&parse_mode=Markdown", headers=headers)
     print(body)
 
-try:
-    # connect to device
-    #conn = zk.connect()
-    #start_connect(conn)
-    #run_schedule(conn)
+def live_capture(conn):
     print('start live_capture')
-    """ for attendance in conn.live_capture():
     if attendance is None:
         # implement here timeout logic
         pass
     else:
-        send_realtime_attendance(attendance) """
+        send_realtime_attendance(attendance)
+
+try:
+    # connect to device
+    conn = zk.connect()
+    start_connect(conn)
+    _thread.start_new_thread(run_schedule, (conn,))
+    live_capture(conn)
 except Exception as e:
     body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     send_telegram(body)
     print ("Process terminate : {}".format(e))
 finally:
-    """ if conn:
-        conn.disconnect() """
+    if conn:
+        conn.disconnect()
