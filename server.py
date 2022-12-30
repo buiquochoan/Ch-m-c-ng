@@ -64,11 +64,12 @@ def send_telegram(body):
 
 def live_capture(conn):
     print('start live_capture')
-    if attendance is None:
-        # implement here timeout logic
-        pass
-    else:
-        send_realtime_attendance(attendance)
+    for attendance in conn.live_capture():
+        if attendance is None:
+            # implement here timeout logic
+            pass
+        else:
+            send_realtime_attendance(attendance)
 
 try:
     # connect to device
