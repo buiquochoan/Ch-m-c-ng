@@ -34,8 +34,8 @@ def send_attendances(conn, date_str = None):
         date_check = datetime.datetime.now().strftime("%Y-%m-%d")
     attendances = conn.get_attendance()
     for attendance in attendances:
-        if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
-            results.append(makeDataAttendance(attendance))
+        #if attendance.timestamp.strftime("%Y-%m-%d") == date_check:
+        results.append(makeDataAttendance(attendance))
     x = requests.post(url, json = results)
     print ("send_attendances : {}".format(x))
 
@@ -55,7 +55,7 @@ def run_schedule(conn):
     schedule.every().day.at("23:30").do(send_attendances, conn)
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(36000)
 
 def send_telegram(body):
     headers = {'Content-Type': 'application/xml'} # set what your server accepts
@@ -78,9 +78,9 @@ try:
     _thread.start_new_thread(run_schedule, (conn,))
     live_capture(conn)
 except Exception as e:
-    body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    send_telegram(body)
     print ("Process terminate : {}".format(e))
 finally:
     if conn:
         conn.disconnect()
+        body="Server disconnected at: "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        send_telegram(body)
