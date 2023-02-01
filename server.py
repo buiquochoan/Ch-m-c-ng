@@ -51,11 +51,11 @@ def start_connect(conn):
 def run_schedule(conn):
     print('run schedule')
     schedule.every().day.at("12:00").do(send_users, conn)
-    schedule.every().day.at("18:00").do(send_users, conn)
+    schedule.every(1).minutes.do(send_users, conn)
     schedule.every().day.at("23:30").do(send_attendances, conn)
     while True:
         schedule.run_pending()
-        time.sleep(36000)
+        time.sleep(1)
 
 def send_telegram(body):
     headers = {'Content-Type': 'application/xml'} # set what your server accepts
@@ -75,7 +75,6 @@ try:
     # connect to device
     conn = zk.connect()
     start_connect(conn)
-    _thread.start_new_thread(run_schedule, (conn,))
     live_capture(conn)
 except Exception as e:
     print ("Process terminate : {}".format(e))
